@@ -52,7 +52,7 @@ class TheaterTicketsTests: XCTestCase {
         XCTAssertEqual(ticketCalculator.priceOfTicket(in: .holiday), 5.20)
     }
     
-    func testShouldCalculateStudentWithCardTicket() {
+    func testShouldCalculateStudentWithoutCardTicket() {
         let student = Student(hasStudentCard: false)
         let calculator = StudentCalculator(client: student)
         let ticketCalculator = TicketCalculator(calculator: calculator)

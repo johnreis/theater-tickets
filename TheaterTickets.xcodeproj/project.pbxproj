@@ -26,6 +26,7 @@
 		5253F4EA23A30C06004F1BEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5253F4E823A30C06004F1BEF /* LaunchScreen.storyboard */; };
 		5253F4F523A30C06004F1BEF /* TheaterTicketsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253F4F423A30C06004F1BEF /* TheaterTicketsTests.swift */; };
 		5253F50023A30C06004F1BEF /* TheaterTicketsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253F4FF23A30C06004F1BEF /* TheaterTicketsUITests.swift */; };
+		52CB31E723A319C100A779C1 /* StudentCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB31E623A319C100A779C1 /* StudentCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		5253F4FB23A30C06004F1BEF /* TheaterTicketsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheaterTicketsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5253F4FF23A30C06004F1BEF /* TheaterTicketsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterTicketsUITests.swift; sourceTree = "<group>"; };
 		5253F50123A30C06004F1BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52CB31E623A319C100A779C1 /* StudentCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				5247CB2923A30F0D002C8BE1 /* CalculatorStrategy.swift */,
 				5247CB3323A30FBF002C8BE1 /* ChildrenCalculator.swift */,
 				5247CB3823A314C5002C8BE1 /* SeniorCalculator.swift */,
+				52CB31E623A319C100A779C1 /* StudentCalculator.swift */,
 			);
 			path = Strategies;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5247CB3423A30FBF002C8BE1 /* ChildrenCalculator.swift in Sources */,
+				52CB31E723A319C100A779C1 /* StudentCalculator.swift in Sources */,
 				5247CB3723A30FFD002C8BE1 /* TicketCalculator.swift in Sources */,
 				5247CB2C23A30F4C002C8BE1 /* Children.swift in Sources */,
 				5247CB3923A314C5002C8BE1 /* SeniorCalculator.swift in Sources */,
