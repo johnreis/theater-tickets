@@ -15,6 +15,9 @@
 		5247CB3223A30F89002C8BE1 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247CB3123A30F89002C8BE1 /* Student.swift */; };
 		5247CB3423A30FBF002C8BE1 /* ChildrenCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247CB3323A30FBF002C8BE1 /* ChildrenCalculator.swift */; };
 		5247CB3723A30FFD002C8BE1 /* TicketCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247CB3623A30FFD002C8BE1 /* TicketCalculator.swift */; };
+		5247CB3923A314C5002C8BE1 /* SeniorCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247CB3823A314C5002C8BE1 /* SeniorCalculator.swift */; };
+		5247CB3B23A3162E002C8BE1 /* FloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247CB3A23A3162E002C8BE1 /* FloatExtensions.swift */; };
+		5247CB3D23A3170C002C8BE1 /* FloatExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247CB3C23A3170C002C8BE1 /* FloatExtensionTests.swift */; };
 		5253F4DE23A30C05004F1BEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253F4DD23A30C05004F1BEF /* AppDelegate.swift */; };
 		5253F4E023A30C05004F1BEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253F4DF23A30C05004F1BEF /* SceneDelegate.swift */; };
 		5253F4E223A30C05004F1BEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253F4E123A30C05004F1BEF /* ViewController.swift */; };
@@ -51,6 +54,9 @@
 		5247CB3123A30F89002C8BE1 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		5247CB3323A30FBF002C8BE1 /* ChildrenCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenCalculator.swift; sourceTree = "<group>"; };
 		5247CB3623A30FFD002C8BE1 /* TicketCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketCalculator.swift; sourceTree = "<group>"; };
+		5247CB3823A314C5002C8BE1 /* SeniorCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeniorCalculator.swift; sourceTree = "<group>"; };
+		5247CB3A23A3162E002C8BE1 /* FloatExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatExtensions.swift; sourceTree = "<group>"; };
+		5247CB3C23A3170C002C8BE1 /* FloatExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatExtensionTests.swift; sourceTree = "<group>"; };
 		5253F4DA23A30C05004F1BEF /* TheaterTickets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheaterTickets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5253F4DD23A30C05004F1BEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5253F4DF23A30C05004F1BEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +122,7 @@
 			children = (
 				5247CB2923A30F0D002C8BE1 /* CalculatorStrategy.swift */,
 				5247CB3323A30FBF002C8BE1 /* ChildrenCalculator.swift */,
+				5247CB3823A314C5002C8BE1 /* SeniorCalculator.swift */,
 			);
 			path = Strategies;
 			sourceTree = "<group>";
@@ -166,6 +173,7 @@
 			children = (
 				5253F4F423A30C06004F1BEF /* TheaterTicketsTests.swift */,
 				5253F4F623A30C06004F1BEF /* Info.plist */,
+				5247CB3C23A3170C002C8BE1 /* FloatExtensionTests.swift */,
 			);
 			path = TheaterTicketsTests;
 			sourceTree = "<group>";
@@ -200,12 +208,21 @@
 		5253F50F23A30CF9004F1BEF /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				52CB31E523A317DE00A779C1 /* Extensions */,
 				5247CB3523A30FEF002C8BE1 /* Calculator */,
 				5247CB2823A30EE1002C8BE1 /* Strategies */,
 				5247CB2523A30D3C002C8BE1 /* Enums */,
 				5247CB2423A30D34002C8BE1 /* Models */,
 			);
 			path = Domain;
+			sourceTree = "<group>";
+		};
+		52CB31E523A317DE00A779C1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5247CB3A23A3162E002C8BE1 /* FloatExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,10 +359,12 @@
 				5247CB3423A30FBF002C8BE1 /* ChildrenCalculator.swift in Sources */,
 				5247CB3723A30FFD002C8BE1 /* TicketCalculator.swift in Sources */,
 				5247CB2C23A30F4C002C8BE1 /* Children.swift in Sources */,
+				5247CB3923A314C5002C8BE1 /* SeniorCalculator.swift in Sources */,
 				5247CB2E23A30F58002C8BE1 /* Client.swift in Sources */,
 				5253F4E223A30C05004F1BEF /* ViewController.swift in Sources */,
 				5247CB2723A30D54002C8BE1 /* DaysOfWeek.swift in Sources */,
 				5247CB3223A30F89002C8BE1 /* Student.swift in Sources */,
+				5247CB3B23A3162E002C8BE1 /* FloatExtensions.swift in Sources */,
 				5247CB2A23A30F0D002C8BE1 /* CalculatorStrategy.swift in Sources */,
 				5253F4DE23A30C05004F1BEF /* AppDelegate.swift in Sources */,
 				5253F4E023A30C05004F1BEF /* SceneDelegate.swift in Sources */,
@@ -357,6 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5247CB3D23A3170C002C8BE1 /* FloatExtensionTests.swift in Sources */,
 				5253F4F523A30C06004F1BEF /* TheaterTicketsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

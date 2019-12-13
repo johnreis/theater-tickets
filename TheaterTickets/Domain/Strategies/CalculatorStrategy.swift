@@ -20,6 +20,6 @@ class CalculatorStrategy {
     
     func getDiscount(with percentage: Float) -> Float {
         let basePrice = self.client.getBasePrice()
-        return basePrice - ((basePrice / 100) * percentage)
+        return (basePrice - ((basePrice / 100) * percentage)).withTwoDecimals()
     }
 }
