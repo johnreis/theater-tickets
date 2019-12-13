@@ -37,4 +37,32 @@ class TheaterTicketsTests: XCTestCase {
         XCTAssertEqual(ticketCalculator.priceOfTicket(in: .sunday), 5.70)
         XCTAssertEqual(ticketCalculator.priceOfTicket(in: .holiday), 5.70)
     }
+    
+    func testShouldCalculateStudentWithCardTicket() {
+        let student = Student(hasStudentCard: true)
+        let calculator = StudentCalculator(client: student)
+        let ticketCalculator = TicketCalculator(calculator: calculator)
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .monday), 5.20)
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .tuesday), 5.20)
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .wednesday), 5.20)
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .thursday),5.20)
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .friday), 5.20)
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .saturday), student.getBasePrice())
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .sunday), student.getBasePrice())
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .holiday), 5.20)
+    }
+    
+    func testShouldCalculateStudentWithCardTicket() {
+        let student = Student(hasStudentCard: false)
+        let calculator = StudentCalculator(client: student)
+        let ticketCalculator = TicketCalculator(calculator: calculator)
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .monday), 7.20)
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .tuesday), 7.60)
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .wednesday), 4.00)
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .thursday), 5.60)
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .friday), student.getBasePrice())
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .saturday), student.getBasePrice())
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .sunday), student.getBasePrice())
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .holiday), student.getBasePrice())
+    }
 }
