@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5247CB2723A30D54002C8BE1 /* DaysOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247CB2623A30D54002C8BE1 /* DaysOfWeek.swift */; };
 		5253F4DE23A30C05004F1BEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253F4DD23A30C05004F1BEF /* AppDelegate.swift */; };
 		5253F4E023A30C05004F1BEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253F4DF23A30C05004F1BEF /* SceneDelegate.swift */; };
 		5253F4E223A30C05004F1BEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253F4E123A30C05004F1BEF /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5247CB2623A30D54002C8BE1 /* DaysOfWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysOfWeek.swift; sourceTree = "<group>"; };
 		5253F4DA23A30C05004F1BEF /* TheaterTickets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheaterTickets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5253F4DD23A30C05004F1BEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5253F4DF23A30C05004F1BEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5247CB2423A30D34002C8BE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5247CB2523A30D3C002C8BE1 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				5247CB2623A30D54002C8BE1 /* DaysOfWeek.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		5253F4D123A30C05004F1BEF = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +116,11 @@
 		5253F4DC23A30C05004F1BEF /* TheaterTickets */ = {
 			isa = PBXGroup;
 			children = (
+				5253F50F23A30CF9004F1BEF /* Domain */,
 				5253F4DD23A30C05004F1BEF /* AppDelegate.swift */,
 				5253F4DF23A30C05004F1BEF /* SceneDelegate.swift */,
-				5253F4E123A30C05004F1BEF /* ViewController.swift */,
-				5253F4E323A30C05004F1BEF /* Main.storyboard */,
+				5253F50D23A30CAB004F1BEF /* Views */,
 				5253F4E623A30C06004F1BEF /* Assets.xcassets */,
-				5253F4E823A30C06004F1BEF /* LaunchScreen.storyboard */,
 				5253F4EB23A30C06004F1BEF /* Info.plist */,
 			);
 			path = TheaterTickets;
@@ -126,6 +142,33 @@
 				5253F50123A30C06004F1BEF /* Info.plist */,
 			);
 			path = TheaterTicketsUITests;
+			sourceTree = "<group>";
+		};
+		5253F50D23A30CAB004F1BEF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5253F50E23A30CB0004F1BEF /* Controllers */,
+				5253F4E323A30C05004F1BEF /* Main.storyboard */,
+				5253F4E823A30C06004F1BEF /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5253F50E23A30CB0004F1BEF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5253F4E123A30C05004F1BEF /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5253F50F23A30CF9004F1BEF /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				5247CB2523A30D3C002C8BE1 /* Enums */,
+				5247CB2423A30D34002C8BE1 /* Models */,
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5253F4E223A30C05004F1BEF /* ViewController.swift in Sources */,
+				5247CB2723A30D54002C8BE1 /* DaysOfWeek.swift in Sources */,
 				5253F4DE23A30C05004F1BEF /* AppDelegate.swift in Sources */,
 				5253F4E023A30C05004F1BEF /* SceneDelegate.swift in Sources */,
 			);
