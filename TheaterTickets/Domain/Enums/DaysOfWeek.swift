@@ -14,4 +14,5 @@ enum DaysOfWeek {
     case friday
     case saturday
     case sunday
+    case holiday
 }

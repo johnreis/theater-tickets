@@ -17,7 +17,7 @@ class ChildrenCalculator: CalculatorStrategy {
                 return self.getDiscount(with: 30.0)
             case .friday:
                 return self.getDiscount(with: 11)
-            case .saturday, .sunday, .thursday:
+            case .saturday, .sunday, .thursday, .holiday:
                 return self.client.getBasePrice()
         }
     }
