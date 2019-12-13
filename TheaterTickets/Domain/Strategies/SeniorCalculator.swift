@@ -7,6 +7,11 @@
 //
 
 class SeniorCalculator: CalculatorStrategy {
+    
+    init(client: Senior) {
+        super.init(client: client)
+    }
+    
     override func calculate(day: DaysOfWeek) -> Float {
         switch day {
         case .monday:
