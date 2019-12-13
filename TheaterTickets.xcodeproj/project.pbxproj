@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5253F4DE23A30C05004F1BEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253F4DD23A30C05004F1BEF /* AppDelegate.swift */; };
+		5253F4E023A30C05004F1BEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253F4DF23A30C05004F1BEF /* SceneDelegate.swift */; };
+		5253F4E223A30C05004F1BEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253F4E123A30C05004F1BEF /* ViewController.swift */; };
+		5253F4E523A30C05004F1BEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5253F4E323A30C05004F1BEF /* Main.storyboard */; };
+		5253F4E723A30C06004F1BEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5253F4E623A30C06004F1BEF /* Assets.xcassets */; };
+		5253F4EA23A30C06004F1BEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5253F4E823A30C06004F1BEF /* LaunchScreen.storyboard */; };
+		5253F4F523A30C06004F1BEF /* TheaterTicketsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253F4F423A30C06004F1BEF /* TheaterTicketsTests.swift */; };
+		5253F50023A30C06004F1BEF /* TheaterTicketsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253F4FF23A30C06004F1BEF /* TheaterTicketsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5253F4F123A30C06004F1BEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5253F4D223A30C05004F1BEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5253F4D923A30C05004F1BEF;
+			remoteInfo = TheaterTickets;
+		};
+		5253F4FC23A30C06004F1BEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5253F4D223A30C05004F1BEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5253F4D923A30C05004F1BEF;
+			remoteInfo = TheaterTickets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5253F4DA23A30C05004F1BEF /* TheaterTickets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheaterTickets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5253F4DD23A30C05004F1BEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5253F4DF23A30C05004F1BEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5253F4E123A30C05004F1BEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5253F4E423A30C05004F1BEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5253F4E623A30C06004F1BEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5253F4E923A30C06004F1BEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5253F4EB23A30C06004F1BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5253F4F023A30C06004F1BEF /* TheaterTicketsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheaterTicketsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5253F4F423A30C06004F1BEF /* TheaterTicketsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterTicketsTests.swift; sourceTree = "<group>"; };
+		5253F4F623A30C06004F1BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5253F4FB23A30C06004F1BEF /* TheaterTicketsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheaterTicketsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5253F4FF23A30C06004F1BEF /* TheaterTicketsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterTicketsUITests.swift; sourceTree = "<group>"; };
+		5253F50123A30C06004F1BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5253F4D723A30C05004F1BEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5253F4ED23A30C06004F1BEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5253F4F823A30C06004F1BEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5253F4D123A30C05004F1BEF = {
+			isa = PBXGroup;
+			children = (
+				5253F4DC23A30C05004F1BEF /* TheaterTickets */,
+				5253F4F323A30C06004F1BEF /* TheaterTicketsTests */,
+				5253F4FE23A30C06004F1BEF /* TheaterTicketsUITests */,
+				5253F4DB23A30C05004F1BEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5253F4DB23A30C05004F1BEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5253F4DA23A30C05004F1BEF /* TheaterTickets.app */,
+				5253F4F023A30C06004F1BEF /* TheaterTicketsTests.xctest */,
+				5253F4FB23A30C06004F1BEF /* TheaterTicketsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5253F4DC23A30C05004F1BEF /* TheaterTickets */ = {
+			isa = PBXGroup;
+			children = (
+				5253F4DD23A30C05004F1BEF /* AppDelegate.swift */,
+				5253F4DF23A30C05004F1BEF /* SceneDelegate.swift */,
+				5253F4E123A30C05004F1BEF /* ViewController.swift */,
+				5253F4E323A30C05004F1BEF /* Main.storyboard */,
+				5253F4E623A30C06004F1BEF /* Assets.xcassets */,
+				5253F4E823A30C06004F1BEF /* LaunchScreen.storyboard */,
+				5253F4EB23A30C06004F1BEF /* Info.plist */,
+			);
+			path = TheaterTickets;
+			sourceTree = "<group>";
+		};
+		5253F4F323A30C06004F1BEF /* TheaterTicketsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5253F4F423A30C06004F1BEF /* TheaterTicketsTests.swift */,
+				5253F4F623A30C06004F1BEF /* Info.plist */,
+			);
+			path = TheaterTicketsTests;
+			sourceTree = "<group>";
+		};
+		5253F4FE23A30C06004F1BEF /* TheaterTicketsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5253F4FF23A30C06004F1BEF /* TheaterTicketsUITests.swift */,
+				5253F50123A30C06004F1BEF /* Info.plist */,
+			);
+			path = TheaterTicketsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5253F4D923A30C05004F1BEF /* TheaterTickets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5253F50423A30C06004F1BEF /* Build configuration list for PBXNativeTarget "TheaterTickets" */;
+			buildPhases = (
+				5253F4D623A30C05004F1BEF /* Sources */,
+				5253F4D723A30C05004F1BEF /* Frameworks */,
+				5253F4D823A30C05004F1BEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheaterTickets;
+			productName = TheaterTickets;
+			productReference = 5253F4DA23A30C05004F1BEF /* TheaterTickets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5253F4EF23A30C06004F1BEF /* TheaterTicketsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5253F50723A30C06004F1BEF /* Build configuration list for PBXNativeTarget "TheaterTicketsTests" */;
+			buildPhases = (
+				5253F4EC23A30C06004F1BEF /* Sources */,
+				5253F4ED23A30C06004F1BEF /* Frameworks */,
+				5253F4EE23A30C06004F1BEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5253F4F223A30C06004F1BEF /* PBXTargetDependency */,
+			);
+			name = TheaterTicketsTests;
+			productName = TheaterTicketsTests;
+			productReference = 5253F4F023A30C06004F1BEF /* TheaterTicketsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5253F4FA23A30C06004F1BEF /* TheaterTicketsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5253F50A23A30C06004F1BEF /* Build configuration list for PBXNativeTarget "TheaterTicketsUITests" */;
+			buildPhases = (
+				5253F4F723A30C06004F1BEF /* Sources */,
+				5253F4F823A30C06004F1BEF /* Frameworks */,
+				5253F4F923A30C06004F1BEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5253F4FD23A30C06004F1BEF /* PBXTargetDependency */,
+			);
+			name = TheaterTicketsUITests;
+			productName = TheaterTicketsUITests;
+			productReference = 5253F4FB23A30C06004F1BEF /* TheaterTicketsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5253F4D223A30C05004F1BEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "John Lenon Reis";
+				TargetAttributes = {
+					5253F4D923A30C05004F1BEF = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					5253F4EF23A30C06004F1BEF = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 5253F4D923A30C05004F1BEF;
+					};
+					5253F4FA23A30C06004F1BEF = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 5253F4D923A30C05004F1BEF;
+					};
+				};
+			};
+			buildConfigurationList = 5253F4D523A30C05004F1BEF /* Build configuration list for PBXProject "TheaterTickets" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5253F4D123A30C05004F1BEF;
+			productRefGroup = 5253F4DB23A30C05004F1BEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5253F4D923A30C05004F1BEF /* TheaterTickets */,
+				5253F4EF23A30C06004F1BEF /* TheaterTicketsTests */,
+				5253F4FA23A30C06004F1BEF /* TheaterTicketsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5253F4D823A30C05004F1BEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5253F4EA23A30C06004F1BEF /* LaunchScreen.storyboard in Resources */,
+				5253F4E723A30C06004F1BEF /* Assets.xcassets in Resources */,
+				5253F4E523A30C05004F1BEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5253F4EE23A30C06004F1BEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5253F4F923A30C06004F1BEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5253F4D623A30C05004F1BEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5253F4E223A30C05004F1BEF /* ViewController.swift in Sources */,
+				5253F4DE23A30C05004F1BEF /* AppDelegate.swift in Sources */,
+				5253F4E023A30C05004F1BEF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5253F4EC23A30C06004F1BEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5253F4F523A30C06004F1BEF /* TheaterTicketsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5253F4F723A30C06004F1BEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5253F50023A30C06004F1BEF /* TheaterTicketsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5253F4F223A30C06004F1BEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5253F4D923A30C05004F1BEF /* TheaterTickets */;
+			targetProxy = 5253F4F123A30C06004F1BEF /* PBXContainerItemProxy */;
+		};
+		5253F4FD23A30C06004F1BEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5253F4D923A30C05004F1BEF /* TheaterTickets */;
+			targetProxy = 5253F4FC23A30C06004F1BEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5253F4E323A30C05004F1BEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5253F4E423A30C05004F1BEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5253F4E823A30C06004F1BEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5253F4E923A30C06004F1BEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5253F50223A30C06004F1BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5253F50323A30C06004F1BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5253F50523A30C06004F1BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TheaterTickets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.johndr.TheaterTickets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5253F50623A30C06004F1BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TheaterTickets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.johndr.TheaterTickets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5253F50823A30C06004F1BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TheaterTicketsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.johndr.TheaterTicketsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheaterTickets.app/TheaterTickets";
+			};
+			name = Debug;
+		};
+		5253F50923A30C06004F1BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TheaterTicketsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.johndr.TheaterTicketsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheaterTickets.app/TheaterTickets";
+			};
+			name = Release;
+		};
+		5253F50B23A30C06004F1BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TheaterTicketsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.johndr.TheaterTicketsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheaterTickets;
+			};
+			name = Debug;
+		};
+		5253F50C23A30C06004F1BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TheaterTicketsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.johndr.TheaterTicketsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheaterTickets;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5253F4D523A30C05004F1BEF /* Build configuration list for PBXProject "TheaterTickets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5253F50223A30C06004F1BEF /* Debug */,
+				5253F50323A30C06004F1BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5253F50423A30C06004F1BEF /* Build configuration list for PBXNativeTarget "TheaterTickets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5253F50523A30C06004F1BEF /* Debug */,
+				5253F50623A30C06004F1BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5253F50723A30C06004F1BEF /* Build configuration list for PBXNativeTarget "TheaterTicketsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5253F50823A30C06004F1BEF /* Debug */,
+				5253F50923A30C06004F1BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5253F50A23A30C06004F1BEF /* Build configuration list for PBXNativeTarget "TheaterTicketsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5253F50B23A30C06004F1BEF /* Debug */,
+				5253F50C23A30C06004F1BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5253F4D223A30C05004F1BEF /* Project object */;
+}
