@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5247CB2723A30D54002C8BE1 /* DaysOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247CB2623A30D54002C8BE1 /* DaysOfWeek.swift */; };
+		5247CB2A23A30F0D002C8BE1 /* CalculatorStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247CB2923A30F0D002C8BE1 /* CalculatorStrategy.swift */; };
+		5247CB2C23A30F4C002C8BE1 /* Children.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247CB2B23A30F4C002C8BE1 /* Children.swift */; };
+		5247CB2E23A30F58002C8BE1 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247CB2D23A30F58002C8BE1 /* Client.swift */; };
+		5247CB3023A30F79002C8BE1 /* Senior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247CB2F23A30F79002C8BE1 /* Senior.swift */; };
+		5247CB3223A30F89002C8BE1 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247CB3123A30F89002C8BE1 /* Student.swift */; };
+		5247CB3423A30FBF002C8BE1 /* ChildrenCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247CB3323A30FBF002C8BE1 /* ChildrenCalculator.swift */; };
+		5247CB3723A30FFD002C8BE1 /* TicketCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247CB3623A30FFD002C8BE1 /* TicketCalculator.swift */; };
 		5253F4DE23A30C05004F1BEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253F4DD23A30C05004F1BEF /* AppDelegate.swift */; };
 		5253F4E023A30C05004F1BEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253F4DF23A30C05004F1BEF /* SceneDelegate.swift */; };
 		5253F4E223A30C05004F1BEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253F4E123A30C05004F1BEF /* ViewController.swift */; };
@@ -37,6 +44,13 @@
 
 /* Begin PBXFileReference section */
 		5247CB2623A30D54002C8BE1 /* DaysOfWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysOfWeek.swift; sourceTree = "<group>"; };
+		5247CB2923A30F0D002C8BE1 /* CalculatorStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorStrategy.swift; sourceTree = "<group>"; };
+		5247CB2B23A30F4C002C8BE1 /* Children.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Children.swift; sourceTree = "<group>"; };
+		5247CB2D23A30F58002C8BE1 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		5247CB2F23A30F79002C8BE1 /* Senior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Senior.swift; sourceTree = "<group>"; };
+		5247CB3123A30F89002C8BE1 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		5247CB3323A30FBF002C8BE1 /* ChildrenCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenCalculator.swift; sourceTree = "<group>"; };
+		5247CB3623A30FFD002C8BE1 /* TicketCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketCalculator.swift; sourceTree = "<group>"; };
 		5253F4DA23A30C05004F1BEF /* TheaterTickets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheaterTickets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5253F4DD23A30C05004F1BEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5253F4DF23A30C05004F1BEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +95,10 @@
 		5247CB2423A30D34002C8BE1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5247CB2B23A30F4C002C8BE1 /* Children.swift */,
+				5247CB2D23A30F58002C8BE1 /* Client.swift */,
+				5247CB2F23A30F79002C8BE1 /* Senior.swift */,
+				5247CB3123A30F89002C8BE1 /* Student.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -91,6 +109,23 @@
 				5247CB2623A30D54002C8BE1 /* DaysOfWeek.swift */,
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		5247CB2823A30EE1002C8BE1 /* Strategies */ = {
+			isa = PBXGroup;
+			children = (
+				5247CB2923A30F0D002C8BE1 /* CalculatorStrategy.swift */,
+				5247CB3323A30FBF002C8BE1 /* ChildrenCalculator.swift */,
+			);
+			path = Strategies;
+			sourceTree = "<group>";
+		};
+		5247CB3523A30FEF002C8BE1 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				5247CB3623A30FFD002C8BE1 /* TicketCalculator.swift */,
+			);
+			path = Calculator;
 			sourceTree = "<group>";
 		};
 		5253F4D123A30C05004F1BEF = {
@@ -165,6 +200,8 @@
 		5253F50F23A30CF9004F1BEF /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				5247CB3523A30FEF002C8BE1 /* Calculator */,
+				5247CB2823A30EE1002C8BE1 /* Strategies */,
 				5247CB2523A30D3C002C8BE1 /* Enums */,
 				5247CB2423A30D34002C8BE1 /* Models */,
 			);
@@ -302,10 +339,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5247CB3423A30FBF002C8BE1 /* ChildrenCalculator.swift in Sources */,
+				5247CB3723A30FFD002C8BE1 /* TicketCalculator.swift in Sources */,
+				5247CB2C23A30F4C002C8BE1 /* Children.swift in Sources */,
+				5247CB2E23A30F58002C8BE1 /* Client.swift in Sources */,
 				5253F4E223A30C05004F1BEF /* ViewController.swift in Sources */,
 				5247CB2723A30D54002C8BE1 /* DaysOfWeek.swift in Sources */,
+				5247CB3223A30F89002C8BE1 /* Student.swift in Sources */,
+				5247CB2A23A30F0D002C8BE1 /* CalculatorStrategy.swift in Sources */,
 				5253F4DE23A30C05004F1BEF /* AppDelegate.swift in Sources */,
 				5253F4E023A30C05004F1BEF /* SceneDelegate.swift in Sources */,
+				5247CB3023A30F79002C8BE1 /* Senior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

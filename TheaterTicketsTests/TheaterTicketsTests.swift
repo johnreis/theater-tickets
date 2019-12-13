@@ -10,18 +10,16 @@ import XCTest
 @testable import TheaterTickets
 
 class TheaterTicketsTests: XCTestCase {
-    var ticketCalculator: TicketCalculator
-    
-    func setUp() {
-        self.ticketCalculator = TicketCalculator()
-    }
-    
     func testShouldCalculateChildrenTicket() {
         let children = Children()
-        self.ticketCalculator.updateStrategy(with: ChildrenCalculator(client: children))
-        
-        let price = self.priceOfTicket(in .monday)
-        XCTAssertEqual(price, 5.4)
-        
+        let calculator = ChildrenCalculator(client: children)
+        let ticketCalculator = TicketCalculator(calculator: calculator)
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .monday), 4.95)
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .tuesday), 4.675)
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .wednesday), 3.85)
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .thursday), children.getBasePrice())
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .friday), 4.895)
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .saturday), children.getBasePrice())
+        XCTAssertEqual(ticketCalculator.priceOfTicket(in: .sunday), children.getBasePrice())
     }
 }
